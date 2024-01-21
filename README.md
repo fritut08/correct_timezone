@@ -1,6 +1,6 @@
 # correct_timezone
 
-This is a Python script one can use to correct timestamps of photo files (`.arw`, `.jpg`, `.jpeg`) if the photos were taken with a camera that was not set to the correct timezone.
+This is a Python script one can use to correct timestamps of photo files (`.arw`, `.jpg`, `.jpeg`) if the photos were taken with a camera that was not set to the correct timezone. The script calls the [exiftool](https://github.com/exiftool/exiftool). This will therefore either have to be in the system's PATH variable or located in the same folder as this script.
 
 The script will ask for a timezone difference and then correct the metadata of all files in a selected directory.
 
